@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+header{
+    font-size: 60pt;
+    text-align: center;
+    background-color: transparent;
+    padding: 50px ;
+}
+
+#navprofissionais{
+    background-color: rgb(33, 33, 204) ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#principal > img{
+    max-width: 100%
+    
+}
+
+nav{
+    font-family: sans-serif
+}
+
+#navprofissionais > a {
+    text-decoration: none;
+    color: white;
+}
+
+#navurbanas{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+#navurbanas > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#navbranco{
+    background-color: white;
+    padding: 5px;
+}
+
+main> #legendacarousel{
+    background-color: rgb(33, 33, 204) ;
+    font-family: sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+main > #faixapreta{
+    background-color: black;
+    padding: 20px;
+}
+
+main{
+    
+}
+
+section#principal{
+    
+    border: 3px solid rgba(0, 0, 0, 0.419);
+}
+
+#legendacarousel{
+    background-color: rgb(249, 250, 251);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-top: 2px solid white;
+    
+}
+
+#carouselExampleAutoplaying{
+    border: 2px solid white;
+}
+
+#formulario{
+    padding: 20px;
+}
+
+#cadastre-se{
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    background-color: ;
+    text-align: center;
+    
+}
+
+footer > h6{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border: 2px solid white;
+    margin-bottom: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+

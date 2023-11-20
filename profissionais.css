@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+header{
+    font-size: 60pt;
+    text-align: center;
+    background-color: transparent;
+    padding: 50px ;
+}
+
+#barraazul{
+    background-color: rgb(33, 33, 204) ;
+    color: white;
+    text-align: center;
+    
+    padding: 20px;
+}
+
+#barrapreta{
+    background-color: black;
+    color: white;
+    
+    text-align: CENTER;
+    padding: 20px;
+}
+
+#barrabranca{
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+#btprinc{
+    
+    color: black;
+    text-align: center;
+    padding: 80px;
+}
+
+
+
+
+
+footer{
+    background-color: ;
+    text-align: center;
+    
+}
+
+footer > h6{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border: 2px solid white;
+    margin-bottom: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
