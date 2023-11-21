@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: unbounded;
+    src: url("Fontes/Unbounded/Unbounded-VariableFont_wght.ttf");
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,21 +14,45 @@ body{
 
     font-family: sans-serif;
     margin: 0px;
+    
 }
 
+
+
 header{
-    font-size: 60pt;
+    font-size: 70pt;
     text-align: center;
     background-color: transparent;
-    padding: 50px ;
+    max-width: 100%;
+    padding: 1em ;
+    font-family: unbounded;
+    font-weight: lighter;
 }
+
+@media (max-width: 768px) {
+    header {
+        font-size: 50pt;
+
+      /* seus estilos específicos para telas médias aqui */
+    }
+  }
+  
+  /* Estilos para telas pequenas (como smartphones) */
+  @media (max-width: 480px) {
+    header {
+        font-size: 40pt;
+      /* seus estilos específicos para telas pequenas aqui */
+    }
+  }
 
 #barraazul{
     background-color: rgb(33, 33, 204) ;
     color: white;
     text-align: center;
-    
+    font-family: unbounded;
+    font-weight: lighter;
     padding: 20px;
+    font-size: 12pt;
 }
 
 #barrapreta{
@@ -41,11 +70,17 @@ header{
 
 
 
-#btprinc{
+#btprinc {
     
     color: black;
     text-align: center;
     padding: 80px;
+}
+
+#btp{
+    width: 300px;
+    background-color: #F2F2F2;
+    box-shadow: 2px 2px 2px black
 }
 
 

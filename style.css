@@ -34,13 +34,30 @@ body{
 }
 
 header{
-    font-size: 45pt;
+    font-size: 70pt;
     text-align: center;
-    padding: 100px ;
+    
+    padding: 1em ;
     font-family: unbounded;
     font-weight: lighter;
     
 }
+
+@media (max-width: 768px) {
+    header {
+        font-size: 50pt;
+
+      /* seus estilos específicos para telas médias aqui */
+    }
+  }
+  
+  /* Estilos para telas pequenas (como smartphones) */
+  @media (max-width: 480px) {
+    header {
+        font-size: 40pt;
+      /* seus estilos específicos para telas pequenas aqui */
+    }
+  }
 
 
 
@@ -133,7 +150,11 @@ section#principal{
     border: 2px solid black;
     padding: 20px;
     margin-bottom: 20px;
+    font-family: poiret;
+    
 }
+
+
 
 
 footer{
