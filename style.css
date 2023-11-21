@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: gruppo ;
+    src: url("Fontes/Gruppo/Gruppo-Regular.ttf") ;
+}
+
+@font-face {
+    font-family: Poiret ;
+    src: url("Fontes/Poiret_One/PoiretOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: turkey;
+    src: url("Fontes/Tourney/Tourney-Italic-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family: unbounded;
+    src: url("Fontes/Unbounded/Unbounded-VariableFont_wght.ttf");
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,14 +30,19 @@ body{
 
     font-family: sans-serif;
     margin: 0px;
+    
 }
 
 header{
-    font-size: 60pt;
+    font-size: 45pt;
     text-align: center;
-    background-color: transparent;
-    padding: 50px ;
+    padding: 100px ;
+    font-family: unbounded;
+    font-weight: lighter;
+    
 }
+
+
 
 #navprofissionais{
     background-color: rgb(33, 33, 204) ;
@@ -32,7 +58,9 @@ header{
 }
 
 nav{
-    font-family: sans-serif
+    font-family: unbounded;
+    font-size: 14pt;
+    font-weight: lighter;
 }
 
 #navprofissionais > a {
@@ -60,7 +88,8 @@ nav{
 
 main> #legendacarousel{
     background-color: rgb(33, 33, 204) ;
-    font-family: sans-serif;
+    font-family: unbounded;
+    font-weight: lighter;
     color: white;
     padding: 20px;
 }
@@ -70,9 +99,7 @@ main > #faixapreta{
     padding: 20px;
 }
 
-main{
-    
-}
+
 
 section#principal{
     
@@ -84,7 +111,14 @@ section#principal{
     color: rgb(0, 0, 0);
     padding: 20px;
     border-top: 2px solid white;
+    text-align: center;
     
+}
+
+#legendacarousel > h5{
+    font-family: unbounded;
+    font-weight: lighter;
+    font-size: 14pt;
 }
 
 #carouselExampleAutoplaying{
@@ -103,7 +137,7 @@ section#principal{
 
 
 footer{
-    background-color: ;
+    background-color: black ;
     text-align: center;
     
 }
@@ -114,6 +148,6 @@ footer > h6{
     padding: 40px;
     border: 2px solid white;
     margin-bottom: 0px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: poiret;
 }
 
