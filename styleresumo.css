@@ -63,7 +63,7 @@ nav{
     width: 500;
     height: 15px;
     border: 1px solid rgb(33, 33, 204) ;
-    box-shadow: 1px 1px 65px rgb(33, 33, 204) ;
+    
     border-radius: 50px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 50px;
@@ -73,7 +73,8 @@ nav{
 #formularioorçamento > #imagem> img{
     width: 250px;
     height: 250px;
-   border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 70px rgb(1, 1, 255);
 }
 
 input{
@@ -109,6 +110,7 @@ select{
     width: 600px;
     height: 900px;
     text-align: center;
+    max-width: 100%;
 }
 
 #btenviar > input{
