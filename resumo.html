@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="cabeçalho">
     BiKeShOp
   </header>
 
@@ -27,19 +27,22 @@
   </nav>
 
   
-
+  <main id="principal">
+    
   <section id="formularioorçamento">
 
-    <div id="imagem">
-      <img src="IMG/resumo3.jpeg" alt="">
-    </div>
+    <a href="index.html"> <div id="imagem">
+       <img src="IMG/resumo3.jpeg" alt="">
+    </div> </a>
+
+    <div id="retorno"></div>
 
     <div id="topoformulario">
-      Escolha seu modelo e solicite seu orçamento!
+      Escolha seu modelo e solicite o orçamento!
     </div>
 
     <hr> Nome: <input type="text" name="nome" id="nome"> 
-    <hr>Endereço: <input type="text" name="idade" id="idade">
+    <hr>Endereço: <input type="text" name="idade" id="endereço">
     <hr>E-mail <input type="email" name="e-mail" id="email">
     <hr>
 
@@ -53,20 +56,14 @@
 
       </select>
 
-      <div id="btenviar">
-      <input type="button" value="Enviar" name="btenviar" onclick="enviar">
+      <div id="btenviar" onclick="enviar()">
+      <input type="button" value="Enviar" name="btenviar" onclick="enviar" >
       </div>
 
-      <div class="invalid-feedback">Estamos a sua espera!</div>
+      <div id="msg"></div>
     
-
   </section>
-
-  
-
-
-
-
+  </main>
 
   <footer>
 
@@ -76,7 +73,7 @@
 
   </footer>
 
-  <script src="script.js"></script>
+  <script src="carrinho.js"></script>
 </body>
 
 </html>
